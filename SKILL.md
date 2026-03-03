@@ -4,6 +4,10 @@ description: |
   Battle-tested prompting guide for AI video and image generation in advertising. Covers universal prompting rules, hallucination prevention, the SLCT framework for structured prompts, camera movement vocabulary, UGC formulas, product shot techniques, and the pass³ quality test. Includes model-specific guidance for Sora 2, Veo 3, Kling, Flux, Nano Banana Pro, Seedance, and more.
 
   Use when: "write a video prompt", "fix hallucination", "prompt for Sora", "generate B-roll", "UGC prompt", "product shot prompt", "which model should I use", "AI image prompt", "prompt engineering for video", "camera movement", "SLCT", "pass³ test", "AI generation prompt", "text to video prompt", "image to video prompt", "model comparison", or any AI generation prompting question.
+license: MIT
+metadata:
+  author: creatify-ai
+  version: "1.0"
 ---
 
 # AI Ad Prompt Guide
