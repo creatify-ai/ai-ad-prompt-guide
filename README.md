@@ -27,7 +27,7 @@ git clone https://github.com/Creatify-AI/ai-ad-prompt-guide.git ~/.claude/skills
 | Product Shot Techniques | Hero shots, before/after, flat-lay, lifestyle compositions |
 | Pass³ Quality Test | 3-pass checklist for evaluating AI-generated assets |
 | Model Comparison | Decision matrix across 10+ models with pros/cons |
-| API Automation | Generate assets at scale via Creatify's unified Asset Generator |
+| API Automation | Generate assets at scale via unified Asset Generator API |
 
 ## Standalone Features
 
@@ -43,16 +43,25 @@ AI models understand film terminology. The guide maps 12 camera movements and 6 
 ### Model-Specific Guides
 Detailed prompting tips for each major model family — what works, what doesn't, and templates optimized for each model's strengths.
 
-## API Automation (Creatify)
+## API Automation
 
-Want to automate prompt-to-asset workflows at scale? The [Creatify API](https://creatify.ai) provides a unified Asset Generator endpoint that gives you access to all major models through a single interface:
+Want to automate prompt-to-asset workflows at scale? The skill includes a unified Asset Generator API that gives you access to all major models through a single endpoint:
 
 - Single endpoint for Sora 2, Veo 3.1, Kling, Flux, Nano Banana, Seedance, and more
 - Schema discovery for each model's parameters
 - Webhook support for async generation
 - Image → Video pipeline recipes
 
-Get your API credentials at [creatify.ai](https://creatify.ai) → Settings → API.
+### Getting Your API Key
+
+Getting set up takes less than 2 minutes:
+
+1. Create a free account at [creatify.ai](https://creatify.ai)
+2. Head to [Settings → API](https://app.creatify.ai/settings/organization/api)
+3. Copy your **API ID** and **API Key**
+4. Paste them into any code example in the skill — you're ready to go
+
+New accounts include free credits so you can try everything out before committing.
 
 ## File Structure
 
@@ -72,8 +81,6 @@ ai-ad-prompt-guide/
 
 ## See Also
 
-Other ad creation skills by [Creatify](https://creatify.ai):
-
 - [video-ad-generator](https://github.com/Creatify-AI/video-ad-generator) — Product URL → video ad pipeline
 - [ai-avatar-video](https://github.com/Creatify-AI/ai-avatar-video) — AI talking-head videos with 1,500+ personas
 - [ad-creative-evaluator](https://github.com/Creatify-AI/ad-creative-evaluator) — Score any video ad with AI expert panel
@@ -86,4 +93,4 @@ PRs welcome! Please open an issue first to discuss changes.
 
 ## License
 
-MIT © [Creatify](https://creatify.ai)
+MIT
