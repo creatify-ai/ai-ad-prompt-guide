@@ -249,9 +249,9 @@ Before using any AI-generated asset in an ad, run it through this 3-pass test:
 
 ---
 
-## Part 3: Creatify API Integration
+## Part 3: API Automation
 
-These models are available through Creatify's unified Asset Generator API, which provides a single endpoint for all models.
+These models are available through a unified Asset Generator API, which provides a single endpoint for all models.
 
 ### 3.1 Asset Generator — Unified Access
 
@@ -293,6 +293,11 @@ def check_generation_status(generation_id):
     resp.raise_for_status()
     return resp.json()
 ```
+
+> **Don't have an API key yet?** No problem — grab one in under 2 minutes:
+> 1. Sign up free at [creatify.ai](https://creatify.ai)
+> 2. Go to [Settings → API](https://app.creatify.ai/settings/organization/api)
+> 3. Copy your API ID and API Key — that's it. New accounts get free credits to start.
 
 ### 3.2 Quick Examples
 
